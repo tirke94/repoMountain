@@ -1,0 +1,1732 @@
+* {
+    margin: 0%;
+    padding: 0%;
+    background-color: white;
+}
+
+header{
+     width: 100%;
+}
+
+#headerDiv p{
+    color: black;
+    font-size: 2rem;
+    font-family: myFont;
+    width: 35%;
+    padding: 20px 0px ;
+}
+nav{
+   width: 45%;
+   padding: 20px 10px ;
+   display: flex;
+   flex-wrap: nowrap;
+   justify-content: space-between;
+}
+@font-face{
+    font-family: myFont;
+    src: url(../../../fontovi/Playball-Regular.ttf);
+}
+#headerDiv{
+    margin: auto;
+    display: flex;
+    justify-content: center;
+    column-gap: 5%;
+    align-items: center;
+}
+#headerDiv a{
+    font-size: 1.7rem;
+    font-weight: 500;
+    text-decoration: none;
+    color: black;
+}
+a:hover{
+    color: #7a1d16;
+}
+#section{
+    height: 70vh;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    background-image: url(https://askmultiply.com/wp-content/uploads/2020/04/landscape-mountains-sky-4843193.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+#section > h1{ 
+    font-size: 5rem;
+    color: white;
+    text-align: center;
+    background: none;
+}
+#section > p{
+
+    width: 40%;
+    background: none;
+    font-size: 1.7rem;
+    font-weight: bold;
+    color: white;
+    letter-spacing: 2px;
+    line-height: 1.5;
+}
+main{
+    background-color: white;
+}
+.section1{
+    height: 60vh;
+    background-color: white;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    column-gap: 3rem;
+    margin-bottom: 2rem;
+}
+
+.slika, .tekstDoSlike{
+    width: 45%;
+    position: relative;
+}
+.slika{
+    height: 100%;
+}
+.slika img{
+    position: absolute;
+    left: 15%;
+    top: 15%;
+    width: 70%;
+    height: 70%;
+}
+.tekstDoSlike{
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    row-gap: 3rem;
+}
+.tekstDoSlikeNaslovi{
+    align-items: flex-start;
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+    width: 80%;
+    padding: 2rem;
+}
+.tekstDoSlike h1{
+    margin-bottom: -7%;
+    /* margin: auto; */
+    font-size: 4rem;
+    text-align: left;
+    color: #e89572;
+    padding-bottom: 0%;
+}
+.tekstDoSlike h2{
+    font-size: 2.5rem;
+    font-family: myfont;
+    text-align: right;
+    padding-top: 0%;
+}
+.tekstDoSlike p{
+    text-align: left;
+    font-size: 1.7rem;
+    padding: 2rem;
+}
+.tekstDoSlike :nth-child(3){
+    margin: auto;
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+    text-align: center;
+}
+#a{
+    text-align: center;
+    padding: 1rem;
+    font-size: 1.7rem;
+    width: 10vw;
+    background-color: #ffcbb5;
+    color: white;
+    font-weight: 600;
+    letter-spacing: 2px;
+    border-radius: 50px;
+    text-decoration: none;
+}
+#a:hover{
+    background-color: #ebb198;
+    font-size: 2rem;
+    padding: 15px;
+}
+.section2{
+    height: 60vh;
+    width: 60%;
+    text-align: center;
+    margin: auto;
+}
+.section2{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    row-gap: 4rem;
+}
+.section2 h1{
+    margin-bottom: -5%;
+    font-size: 5rem;
+    color: #e89572;
+    padding-top: 1rem;
+}
+.section2 h2{
+    font-size: 3rem;
+    font-family: myfont;
+    padding-bottom: 1rem;
+}
+.section2 p{
+    font-size: 1.7rem;
+    padding: 1rem 0rem;
+}
+.section2 a{
+    width: 15vw;
+    background-color: #ffcbb5;
+    color: white;
+    font-size: 1.7rem;
+    font-weight: 600;
+    letter-spacing: 2px;
+    padding: 15px;
+    border-radius: 50px;
+    text-decoration: none;
+}
+
+.section2 :nth-child(3){
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+}
+.section2 a:hover{
+    background-color: #ebb198;
+    font-size: 2rem;
+    padding: 25px;
+}
+
+#article{
+    height: 80vh;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    background-image: url(https://static.nationalgeographic.rs/Picture/34600/jpeg/kajmakcalan__5__124881011?ts=2021-07-08T16:34:14);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+#h1Article{
+    font-size: 5rem;
+    color: white;
+    text-align: center;
+    background: none;
+}
+#pArticle{
+    width: 50%;
+    background: none;
+    color: white;
+    font-size: 2rem;
+    font-weight: 600;
+    text-align: center;
+    line-height: 1.5;
+}
+.travel{
+    width: 30%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    row-gap: 2rem;
+
+}
+#article2{
+    height: 60vh;
+    display: flex;
+    justify-content: space-between;
+    align-content: center;
+    margin-left: 2rem;
+    margin-right: 2rem;
+}
+.travel > img{
+    width: 20%;
+}
+.travel > h3{
+    font-size: 2.2rem;
+    letter-spacing: 2px;
+    color: #ebb198;
+    margin: 1rem 0rem;
+}
+.travel > p{
+    font-size: 1.6rem;
+    text-align: center;
+    line-height: 1.5;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    margin: 1rem 0rem;
+}
+.travel  a{
+    color: #e89572;
+    font-size: 1.6rem;
+    letter-spacing: 1.5px;
+    font-weight: 200;
+    margin: 1rem 0rem;
+    text-decoration: none;
+}
+.travel  a:hover{
+    text-decoration: line-through;
+}
+#article3{
+    height: 80vh;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    background-image: url(https://fakulteti.edukacija.rs/wp-content/uploads/2015/05/planina-sunce-890x395_c.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+#naslov{
+    height: 30vh;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+}
+#naslov h1{
+    position: relative;
+    margin-bottom: -2%;
+    font-size: 3.5rem;
+    color: #e89572;
+    letter-spacing: 5px;
+    font-weight: 600;
+}
+#naslov h2{
+    z-index: 2;
+    font-size: 2.5rem;
+    font-family: myfont;
+    background: none;
+}
+
+.lastArticle div{
+    height: 40vh;
+    width: 30%;
+    text-align: center;
+}
+.lastArticle{
+    display: flex;
+    justify-content: center;
+    column-gap: 3rem;
+}
+.lastArticleDiv{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+}
+.lastArticle h4{
+    font-size: 2.2rem;
+    letter-spacing: 3px;
+    opacity: 0.7;
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+}
+.lastArticle p{
+    font-size: 1.6rem;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+}
+footer{
+    height: 35vh;
+    background-color: #1f1e1e;
+}
+.footerSection{
+    background-color: #76527a;
+    background-position: center;
+    position: relative;
+    background-size: 100%;
+    height: 80%;
+}
+.footerSection{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    row-gap: 1.5rem;
+}
+#footerSlicice{
+margin: auto;
+}
+.footerSection div{
+    background: none;
+}
+.divSection div{
+    text-align: center;
+    width: 25%;
+}
+.footerSection nav{
+    background: none;
+    width: 50%;
+}
+.footerSection a{
+    font-size: 1.7rem;
+    background: none;
+    color: white;
+    margin: 1rem 0.5rem;
+    text-decoration: none;
+}
+.footerSection a:hover{
+    color: yellow;
+}
+.footerSection img{
+    width: 2rem;
+    border-radius: 50%;
+    margin: 1rem 0.5rem;
+}
+.img2{
+    height: 2rem;
+}
+.divSection{
+    display: flex;
+    justify-content: space-around;
+    column-gap: 10%;
+}
+hr{
+    width: 75%;
+    margin: auto;
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+    color: black;
+}
+.footerSection p{
+    text-align: center;
+    font-size: 1.7rem;
+    color: white;
+    background: none;
+}
+.footerPoslednjiParagraf{
+    margin: auto;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+    text-align: center;
+    color: white;
+    background: none;
+    font-size: 1.7rem;
+    letter-spacing: 3px;
+}
+.footerPoslednjiParagraf a{
+    color: gold;
+    background: none;
+    font-size: 1.7rem;
+    font-style: italic;  
+    text-decoration: underline;
+}
+#footerPoslednjiParagraf{
+    margin: auto;
+    margin-top: 2rem;
+    text-align: center;
+    background: none;
+}
+
+@media all and (min-width: 220px){
+    #headerDiv p{
+        font-size: 1.5rem;
+        width: 35%;
+        padding: 0%;
+        text-align: center;
+    }
+    nav{
+       width: 100%;
+       display: flex;
+       flex-wrap: wrap;
+       justify-content: space-between;
+       align-items: center;
+       padding: 0%;
+       margin: auto;
+    }
+    #headerDiv{
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    #headerDiv a{
+        font-size: 1.4rem;
+        width: 30%;
+        text-align: center;
+    }
+    #section{
+        height: 90vh;
+    }
+    #section > h1{ 
+        font-size: 2.3rem;
+        font-weight: 400;
+    }
+    #section > p{
+        width: 80%;
+        font-size: 1.5rem;
+        letter-spacing: 0px;
+        line-height: 1;
+    }
+    .section1{
+        height: 120vh;
+        display: flex;
+        flex-direction: column;
+        column-gap: 1rem;
+        margin-bottom: 0rem;
+    }
+    
+    .slika, .tekstDoSlike{
+        width: 100%;
+    }
+    .slika{
+        height: 90%;
+    }
+    .slika img{
+        left: 10%;
+        top: 10%;
+        width: 80%;
+        height: 80%;
+    }
+    .tekstDoSlike{
+        height: 100%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        row-gap: 1rem;
+    }
+    .tekstDoSlikeNaslovi{
+        margin: 1rem;
+        padding: 0%;
+        text-align: center;
+        width: 80%;
+    }
+    .tekstDoSlike h1{
+        margin-bottom: -7%;
+        font-size: 2rem;
+    }
+    .tekstDoSlike h2{
+        font-size: 1.7rem;
+    }
+    .tekstDoSlike p{
+        text-align: center;
+        font-size: 1.5rem;
+        padding: 1rem;
+    }
+    #a{
+        font-size: 1.4rem;
+        font-weight: 400;
+        padding: 10px;
+        letter-spacing: 1px;
+    }
+    #a:hover{
+        font-size: 1.6rem;
+    }
+    .section2{
+        margin-top: 2rem;
+        height: 100vh;
+        width: 100%;
+    }
+    .section2 h1{
+        margin-bottom: -5%;
+        font-size: 3rem;
+        padding: 0%;
+    }
+    .section2 h2{
+        font-size: 2rem;
+    }
+    .section2 p{
+        font-size: 1.5rem;
+    }
+    .section2 a{
+        font-size: 1.5rem;
+        font-weight: 400;
+        letter-spacing: 1px;
+    }
+    .section2 a:hover{
+        font-size: 1.6rem;
+    }
+    #article{
+        height: 90vh;
+    }
+    #h1Article{
+        font-size: 3rem;
+    }
+    #pArticle{
+        width: 80%;
+        font-size: 1.5rem;
+        font-weight: 400;
+        line-height: 1;
+    }
+    .travel{
+        width: 80%;
+        row-gap: 1rem;
+    }
+    #article2{
+        height: 230vh;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        margin-left: 0%;
+        margin-right: 0%;
+    }
+    .travel > img{
+        width: 20%;
+    }
+    .travel > h3{
+        font-size: 1.8rem;
+        letter-spacing: 1px;
+        text-align: center;
+    }
+    .travel > p{
+        font-size: 1.5rem;
+        line-height: 1;
+    }
+    .travel  a{
+        font-size: 1.5rem;
+        letter-spacing: 1px;
+        font-weight: 200;
+    }
+    #article3{
+        height: 90vh;
+    }
+    #naslov{
+        height: 25vh;
+    }
+    #naslov h1{
+        position: relative;
+        margin-bottom: -2%;
+        font-size: 2rem;
+        letter-spacing: 0px;
+        font-weight: 400;
+    }
+    #naslov h2{
+        font-size: 1.5rem;
+    }
+    .lastArticle div{
+        width: 90%;
+        margin: auto;
+        height: 55vh;
+    }
+    .lastArticle{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        column-gap: 1rem;
+        height: 180vh;
+    }
+    .lastArticle h4{
+        font-size: 1.8rem;
+        letter-spacing: 1px;
+        opacity: 0.7;
+        margin-top: 1rem;
+        margin-bottom: 1rem;
+    }
+    .lastArticle p{
+        font-size: 1.5rem;
+        margin-top: 1rem;
+        margin-bottom: 1rem;
+    }
+    footer{
+        height: 40vh;
+    }
+    .divSection div{
+        text-align: center;
+        width: 70%;
+    }
+    .footerSection nav{
+        width: 100%;
+        padding: 0%;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
+        align-items: center;
+    }
+    .footerSection a{
+        width: 27%;
+        font-size: 1.4rem;
+        margin: 0%;
+        text-align: center;
+    }
+    .footerSection img{
+        width: 1rem;
+    }
+    .img2{
+        height: 1rem;
+    }
+    .divSection{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+    hr{
+        margin-top: 0.5rem;
+        margin-bottom: 0.5rem;
+    }
+    .footerSection p{
+        font-size: 1.5rem;
+    }
+    .footerPoslednjiParagraf{
+        font-size: 1.5rem;
+        letter-spacing: 1px;
+        margin-top: 0%;
+        margin-bottom: 0%;
+    }
+    .footerPoslednjiParagraf a{
+        font-size: 1.5rem;
+    }
+    #footerPoslednjiParagraf{
+        margin: auto;
+    }
+}
+@media all and (width: 360px){
+    #section{
+        height: 60vh;
+    }
+    .section1{
+        height: 90vh;
+    }
+    .slika{
+        height: 40%;
+    }
+    .section2{
+        height: 80vh;
+    }
+    #article{
+        height: 70vh;
+    }
+    #article2{
+        height: 180vh;
+    }
+    #article3{
+        height: 70vh;
+    }
+    #naslov{
+        height: 20vh;
+    }
+    .lastArticle div{
+        height: 30vh;
+    }
+    .lastArticle{
+        height: 120vh;
+    }
+}
+@media all and (min-width: 375px){
+    #section{
+        height: 80vh;
+    }
+    #section > h1{ 
+        font-size: 2.4rem;
+    }
+    #section > p{
+        letter-spacing: 1px;
+    }
+    .section2{
+        height: 90vh;
+    }
+    .section2 h1{
+        font-size: 3.2rem;
+    }
+    .section2 h2{
+        font-size: 2.2rem;
+    }
+    .section2 p{
+        font-size: 1.6rem;
+    }
+    #article{
+        height: 80vh;
+    }
+    #h1Article{
+        font-size: 3.2rem;
+    }
+    #pArticle{
+        font-size: 1.6rem;
+    }
+    #article2{
+        height: 200vh;
+    }
+    #article3{
+        height: 80vh;
+    }
+    .lastArticle div{
+        height: 40vh;
+    }
+    .lastArticle{
+        height: 130vh;
+    }
+}
+@media all and (min-width: 390px) and (max-width: 393px){
+    #section{
+        height: 60vh;
+    }
+    .section1{
+        height: 90vh;
+    }
+    .slika{
+        height: 40%;
+    }
+    .section2{
+        height: 70vh;
+    }
+    #article{
+        height: 70vh;
+    }
+    #article2{
+        height: 150vh;
+    }
+    #article3{
+        height: 70vh;
+    }
+    #naslov{
+        height: 20vh;
+    }
+    .lastArticle div{
+        height: 30vh;
+    }
+    .lastArticle{
+        height: 100vh;
+    }
+} 
+
+@media all and (min-width: 414px){
+    #section{
+        height: 60vh;
+    }
+    .section1{
+        height: 90vh;
+    }
+    .slika{
+        height: 40%;
+    }
+    .section2{
+        height: 70vh;
+    }
+    #article{
+        height: 70vh;
+    }
+    #article2{
+        height: 150vh;
+    }
+    #article3{
+        height: 70vh;
+    }
+    #naslov{
+        height: 20vh;
+    }
+    .lastArticle div{
+        height: 30vh;
+    }
+    .lastArticle{
+        height: 100vh;
+    }
+}
+@media all and (min-width: 420px){
+    #section{
+        height: 70vh;
+    }
+    #section > h1{ 
+        font-size: 3rem;
+
+    }
+    #section > p{
+    
+        width: 70%;
+        font-size: 1.6rem;
+        line-height: 1.5;
+    } 
+    .section2 h1{
+        font-size: 3rem;
+    }
+    .section2 h2{
+        font-size: 2rem;
+    }
+    .section2 p{
+        font-size: 1.6rem;
+    }
+    .section2 a{
+
+        font-size: 1.6rem;
+        font-weight: 500;
+    }
+    #h1Article{
+        font-size: 3rem;
+    }
+    #pArticle{
+        width: 70%;
+        font-size: 1.6rem;
+        font-weight: 500;
+
+    }
+
+    .travel > h3{
+        font-size: 2rem;
+    }
+    .travel > p{
+        font-size: 1.6rem;
+    }
+    .travel  a{
+        font-size: 1.6rem;
+    }
+    #naslov{
+        height: 30vh;
+    }
+    #naslov h1{
+        font-size: 3rem;
+        letter-spacing: 3px;
+        font-weight: 500;
+    }
+    #naslov h2{
+        font-size: 2rem;
+    }
+    .lastArticle h4{
+        font-size: 2rem;
+        letter-spacing: 2px;
+    }
+    .lastArticle p{
+        font-size: 1.6rem;
+    }
+    .footerSection img{
+        width: 1.5rem;
+    }
+    .img2{
+        height: 1.5rem;
+    }
+}
+@media all and (width: 540px){
+    #section{
+        height: 55vh;
+    }
+    #section > h1{ 
+        font-size: 2.6rem;
+    }
+    #section > p{
+        font-size: 1.7;
+    }
+    .section1{
+        height: 100vh;
+    }
+    .slika{
+        height: 50%;
+    }
+    .section2{
+        height: 70vh;
+    }
+    #article{
+        height: 70vh;
+    }
+    #article2{
+        height: 160vh;
+    }
+    #article3{
+        height: 70vh;
+    }
+    #naslov{
+        height: 20vh;
+    }
+    .lastArticle div{
+        height: 30vh;
+    }
+    .lastArticle{
+        height: 100vh;
+    }
+}
+@media all and (min-width: 541px){
+    #headerDiv p{
+        font-size: 2rem;
+        width: 35%;
+        padding: 0px ;
+    }
+    nav{
+       width: 100%;
+       display: flex;
+       flex-wrap: nowrap;
+       justify-content: space-between;
+    }
+
+    #headerDiv{
+        margin: auto;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        row-gap: 5%;
+        align-items: center;
+    }
+    #headerDiv a{
+        font-size: 1.6rem;
+        font-weight: 500;
+    }
+
+    #section{
+        height: 70vh;
+    }
+    #section > h1{ 
+        font-size: 4rem;
+    }
+    #section > p{
+        width: 65%;
+        font-size: 1.6rem;
+    }
+    .section1{
+        height: 100vh;
+    }
+    .slika{
+        height: 60%;
+    }
+    .tekstDoSlike h1{
+        font-size: 4rem;
+    }
+    .tekstDoSlike h2{
+        font-size: 2.3rem;
+    }
+    .tekstDoSlike p{
+        font-size: 1.6rem;
+    }
+    #a{
+        font-size: 1.6rem;
+    }
+    #a:hover{
+        font-size: 1.9rem;
+    }
+    .section2{
+        height: 70vh;
+        width: 80%;
+        margin-top: 0%;
+    }
+    .section2 h1{
+        font-size:4rem;
+    }
+    .section2 h2{
+        font-size: 2.5rem;
+    }
+
+    #article{
+        height: 80vh;
+    }
+    #h1Article{
+        font-size: 4rem;
+    }
+    #pArticle{
+        width: 70%;
+        font-size: 1.7rem;
+    }
+
+    #article3{
+        height: 70vh;
+    }
+
+    #naslov h1{
+        font-size: 3rem;
+    }
+    #naslov h2{
+        font-size: 2rem;
+    }
+    .footerSection nav{
+        width: 100%;
+        display: flex;
+        flex-wrap: nowrap;
+        justify-content: space-around;
+        align-items: center;
+    }
+}
+@media all and (min-width: 768px){
+    
+}
+
+/* @media all and (min-width: 1940px){
+    #headerDiv p{
+        font-size: 2.7rem;
+    }
+    #headerDiv a{
+        font-size: 2.7rem;
+    }
+    #section > h1{ 
+        font-size: 9rem;
+    }
+    #section > p{
+        font-size: 2.7rem;
+    }
+    .slika img{
+        top: 20%;
+        height: 60%;
+    }
+    .tekstDoSlikeNaslovi{
+        margin: auto;
+        margin-top: 1rem;
+        margin-bottom: 1rem;
+        padding: 1rem;
+    }
+    .tekstDoSlike h1{
+        font-size: 6rem;
+    }
+    .tekstDoSlike h2{
+        font-size: 3.5rem;
+    }
+    .tekstDoSlike p{
+        font-size: 1.7rem;
+    }
+    #a{
+        font-size: 2.3rem;
+    }
+    #a:hover{
+        font-size: 3rem;
+    }
+    .section2 h1{
+        font-size: 7rem;
+    }
+    .section2 h2{
+        font-size: 5.2rem;
+    }
+    .section2 p{
+        font-size: 1.7rem;
+    }
+    #h1Article{
+        font-size: 8.5rem;
+    }
+    #pArticle{
+        font-size: 2.2rem;
+    }
+    .travel > img{
+        width: 26%;
+    }
+    .travel > h3{
+        font-size: 2.6rem;
+    }
+    .travel > p{
+        font-size: 1.8rem;
+    }
+    .travel  a{
+        font-size: 2.3rem;
+    }
+    #naslov h1{
+        margin-bottom: -3%;
+        font-size: 7rem;
+        letter-spacing: 4px;
+    }
+    #naslov h2{
+        font-size: 4.5rem;
+    }
+    .lastArticle h4{
+        font-size: 2.8rem;
+        letter-spacing: 2px;
+    }
+    .lastArticle p{
+        font-size: 1.7rem;
+    }
+    .footerSection a{
+        font-size: 2.5rem;
+    }
+    .footerSection img{
+        width: 4.4rem;
+    }
+    .img2{
+        height: 4.4rem;
+    }
+    .footerSection p{
+        font-size: 2.4rem;
+    }
+}
+
+@media all and (min-width: 1440px){
+    #headerDiv p{
+        font-size: 2rem;
+    }
+    #headerDiv a{
+        font-size: 2rem;
+    }
+    #section > h1{ 
+        font-size: 7rem;
+    }
+    #section > p{
+        font-size: 2rem;
+    }
+    #section{
+        height: 65vh;
+    }
+    .section1{
+        height: 70vh;
+    }
+    .tekstDoSlike h1{
+        margin-bottom: -7%;
+        font-size: 4rem;
+    }
+    .tekstDoSlike h2{
+        font-size: 2.7rem;
+    }
+    .tekstDoSlike p{
+        font-size: 1.4rem;
+    }
+    #a{
+        font-size: 1.5rem;
+    }
+    #a:hover{
+        font-size: 1.7rem;
+    }
+    .section2{
+        height: 50vh;
+        width: 70%;
+        margin-top: 2rem;
+        margin-bottom: 2rem;
+    }
+    .section2 h1{
+        margin-bottom: -5%;
+        font-size: 6rem;
+    }
+    .section2 h2{
+        font-size: 4rem;
+    }
+    .section2 p{
+        font-size: 1.5rem;
+    }
+    .section2 a{
+        font-size: 1.7rem;
+    }
+    .section2 a:hover{
+        font-size: 1.9rem;
+    }
+    #article{
+        height: 70vh;
+        margin-bottom: 2rem;
+    }
+    #h1Article{
+        font-size: 7rem;
+    }
+    #pArticle{
+        width: 60%;
+        font-size: 2rem;
+    }
+    #article2{
+        height: 70vh;
+    }
+
+    .travel > h3{
+        font-size: 2rem;
+    }
+    .travel > p{
+        font-size: 1.5rem;
+    }
+    .travel  a{
+        font-size: 1.7rem;
+    }
+    #article3{
+        height: 80vh;
+        margin-bottom: 2rem;
+    }
+    #naslov{
+        height: 30vh;
+        margin-top: 1rem;
+        margin-bottom: 2rem;
+    }
+    #naslov h1{
+        font-size: 6rem;
+        letter-spacing: 3px;
+    }
+    #naslov h2{
+        font-size: 3.7rem;
+    }
+    .lastArticle{
+    height: 40vh;
+    align-items: center;
+    }
+    .lastArticle h4{
+        font-size: 2rem;
+        letter-spacing: 2px;
+    }
+    .lastArticle p{
+        font-size: 1.5rem;
+    }
+    .footerSection a{
+        font-size: 1.7rem;
+    }
+    .footerSection img{
+        width: 2rem;
+    }
+    .img2{
+        height: 2rem;
+    }
+    .footerSection p{
+        font-size: 1.7rem;
+    }
+    .divSection{
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        column-gap: 10%;
+    }
+    hr{
+        margin: auto;
+        margin-top: 1rem;
+        margin-bottom: 1rem;
+    }
+    .footerPoslednjiParagraf{
+        font-size: 1.5rem;
+    }
+    .footerPoslednjiParagraf a{
+        font-size: 1.5rem;
+    }
+}
+@media all and (min-width: 1200px){
+    nav{
+        width: 45%;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
+        align-items: center;
+        row-gap: 1rem;
+        text-align: center;
+     }
+     #headerDiv a{
+        font-size: 2rem;
+        width: 30%;
+    }
+    #section > h1{ 
+        font-size: 6.5rem;
+    }
+    #section > p{
+        font-size: 1.9rem;
+        width: 60%;
+    }
+    #section{
+        height: 65vh;
+    }
+    .section2 h1{
+        font-size: 5.7rem;
+    }
+    .section2 h2{
+        font-size: 3.8rem;
+    }
+    #h1Article{
+        font-size: 6.5rem;
+    }
+    #pArticle{
+        width: 70%;
+        font-size: 2rem;
+    }
+    .travel > h3{
+        font-size: 1.8rem;
+    }
+    .travel > p{
+        font-size: 1.3rem;
+    }
+    .travel  a{
+        font-size: 1.5rem;
+    }
+    #naslov{
+        height: 25vh;
+    }
+    #naslov h1{
+        font-size: 5rem;
+        letter-spacing: 3px;
+        font-weight: 400;
+    }
+    #naslov h2{
+        font-size: 3rem;
+    }
+    .lastArticle{
+        height: 45vh;
+        align-items: center;
+    }
+    .lastArticle h4{
+        font-size: 1.7rem;
+        letter-spacing: 1px;
+    }
+    .lastArticle p{
+        font-size: 1.3rem;
+    }
+    .footerSection nav{
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        align-items: center;
+    }
+    .footerSection a{
+        width: 30%;
+    }
+    footer{
+        height: 40vh;
+        margin-top: 1rem;
+    }
+}
+@media all and (min-width: 1024px){
+    #headerDiv{
+        display: flex;
+        flex-direction: column;
+        flex-wrap: nowrap;
+        justify-content: center; 
+        align-items: center; 
+    }
+    nav{
+        width: 90%;
+        display: flex;
+        flex-wrap: nowrap;
+        justify-content: center;
+        align-items: center;
+        column-gap: 1rem;
+        text-align: center;
+     }
+     #headerDiv p{
+        font-size: 2rem;
+        padding: 10px 0px ;
+        margin-left: 5rem;
+    }
+    #section{
+        height: 80vh;
+    }
+    #section > h1{ 
+        font-size: 5rem;
+    }
+    #section > p{
+        width: 70%;
+        font-size: 2rem;
+    }
+    .section1{
+        height: 110vh;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        margin-bottom: 2rem;
+    }
+    .slika, .tekstDoSlike{
+        width: 80%;
+    }
+    .slika{
+        height: 40%;
+    }
+    .slika img{
+        left: 15%;
+        top: 10%;
+        width: 70%;
+        height: 80%;
+    }
+    .tekstDoSlike{
+        height: 60%;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+    }
+    .tekstDoSlike h1{
+        margin-bottom: -7%;
+        font-size: 5rem;
+    }
+    .tekstDoSlike h2{
+        font-size: 3rem;
+    }
+    .tekstDoSlike p{
+        font-size: 1.5rem;
+    }
+    .tekstDoSlike :nth-child(3){
+        margin: auto;
+        margin-top: 2rem;
+        margin-bottom: 2rem;
+        text-align: center;
+    }
+    .section2{
+        margin-top: 2rem;
+        height: 55vh;
+        width: 80%;
+    }
+    .section2 h1{
+        font-size: 5rem;
+    }
+    .section2 h2{
+        font-size: 3.2rem;
+    }
+    .section2 p{
+        font-size: 1.5rem;
+    }
+    .section2 a{
+        font-size: 1.5rem;
+        font-weight: 500;
+    }
+
+    .section2 a:hover{
+        font-size: 1.6rem;
+        padding: 20px;
+    }
+    #article{
+        height: 70vh;
+    }
+    #h1Article{
+        width: 80%;
+        font-size: 5rem;
+    }
+    #pArticle{
+        width: 80%;
+        font-size: 2rem;
+        font-weight: 500;
+    }
+    .travel{
+        width: 60%;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+        align-items: center;
+        row-gap: 2rem;
+    
+    }
+    #article2{
+        position: relative;
+        height: 190vh;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        align-items: center;
+        margin-bottom: 2rem;
+    }
+    .travel > img{
+        width: 25%;
+    }
+    .travel > h3{
+        font-size: 2rem;
+    }
+    .travel > p{
+        font-size: 1.5rem;
+    }
+    .travel  a{
+        font-size: 1.5rem;
+    }
+    #naslov{
+        height: 30vh;
+        width: 90%;
+    }
+    #naslov h1{
+        font-size: 5rem;
+        letter-spacing: 2px;
+        font-weight: 400;
+    }
+    #naslov h2{
+        font-size: 3rem;
+    }
+    .lastArticle div{
+        width: 50%;
+        text-align: center;
+    }
+    .lastArticle{
+        height: 80vh;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        align-items: center;
+        margin-bottom: 2rem;
+    }
+    .lastArticleDiv{
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+        align-items: center;
+        text-align: center;
+    }
+    .lastArticle h4{
+        font-size: 2rem;
+    }
+    .lastArticle p{
+        font-size: 1.5rem;
+    }
+    footer{
+        height: 40vh;
+    }
+    .footerSection{
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+        align-items: center;
+    }
+    .footerSection nav{
+        width: 90%;
+        padding-top: 5px;
+        padding-bottom: 5px;
+
+    }
+    .footerSection a{
+        font-size: 1.5rem;
+        width: 10%;
+        margin: 2px;
+    }
+    #footerSlicice{
+        width: 70%;
+    }
+    .footerSection img{
+        width: 2rem;
+    }
+    .img2{
+        height: 2rem;
+    }
+    .divSection{
+        width: 100%;
+        display: flex;
+        flex-wrap: nowrap;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    hr{
+        margin-top: 1rem;
+        margin-bottom: 1rem;
+    }
+    .footerSection p{
+        font-size: 1.5rem;
+    }
+    .footerPoslednjiParagraf{
+        font-size: 1.5rem;
+        letter-spacing: 2px;
+    }
+    .footerPoslednjiParagraf a{
+        font-size: 1.5rem;
+    }
+    #footerPoslednjiParagraf{
+        margin: auto;
+        text-align: center;
+        background: none;
+    }
+}
+@media all and (min-width: 768px){
+
+} */
+
+
+/********* ostale stranice ************/
+#yourAdventure{
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+    height: 80vh;
+    background-color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+#slikaAdventure{
+    width: 30%;
+    background-color: #ebb198;
+}
+#slikaAdventure img{
+    width: 80%;
+    height: 50vh;
+    margin: 5rem 0rem;
+    background: none;
+    border: 4px solid white;
+}
+#tekstAdventure{
+    width: 30%;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    row-gap: 2rem;
+    align-items: center;
+}
+#tekstAdventure h1{
+    font-size: 4rem;
+    color: #ebb198;
+}
+#tekstAdventure h2{
+    font-family: myfont;
+    font-size: 2.5rem;
+    color: black;
+}
+#par > p{
+    margin: auto;
+}
+#tekstAdventure p{
+    text-align: justify;
+    font-size: 1.3rem;
+    width: 80%;
+}
+#tekstAdventure a{
+    margin-top: 2%;
+    width: 10vw;
+    background-color: #ffcbb5;
+    color: white;
+    font-size: 1rem;
+    font-weight: 600;
+    letter-spacing: 2px;
+    padding: 10px;
+    border-radius: 50px;
+}
+#tekstAdventure a:hover{
+    background-color: #e89572;
+}
+#footerAdventure{
+    height: 15vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #1f1e1e;
+}
+.parAdventureFooter{
+    color: white;
+    background-color: #1f1e1e;
+}
+.parAdventureFooter a{
+    color: gold;
+    background: none;
+    font-size: 1rem;
+    font-style: italic; 
+    text-decoration: underline;
+}
+#hrGoBig{
+    width: 15%;
+    height: 5px;
+    margin-top: -3rem;
+    margin-bottom: 3rem;
+}
+.tekstDoSlike2{
+    width: 40%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    row-gap: 30px;
+}
+.slika2{
+    width: 40%;
+    height: 100%;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.slika2 img{
+    width: 60%;
+    height: 60%;
+    text-align: center;
+    border: 1px solid #ebb198;
+    background-color: #ebb198;
+    padding: 40px;
+}
+
+.tekstDoSlike2 h1{
+    
+    font-size: 5rem;
+    text-align: center;
+    color: #e89572;
+    padding-bottom: 0%;
+}
+.tekstDoSlike2 h2{
+    font-size: 3rem;
+    font-family: myfont;
+    text-align: center;
+    padding-top: 0%;
+}
+.tekstDoSlike2 p{
+    width: 60%;
+    text-align: center;
+    margin: 2%;
+    font-size: 1.3rem;
+}
+
+
+
+.sectionPlaningATrip{
+    margin-left: 10%;
+    margin-right: 10%;
+    height: 80vh;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.sectionPlaningATrip p{
+    text-align: center;
+    margin: auto;
+}
