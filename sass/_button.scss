@@ -1,0 +1,22 @@
+@mixin anchorNav($color, $font-size, $text-transform, $text-decoration) {
+    color: $color;
+    font-size: $font-size;
+    text-transform: $text-transform;
+    text-decoration: $text-decoration;
+}
+
+@mixin anchorNavHover($scale, $color, $transition ) {
+    transform: $scale;
+    color: $color;
+    transition: $transition;
+}
+
+@mixin anchorSection($width, $color, $background, $spacing, $padding, $radius, $decoration) {
+    width: $width;
+    color: $color;
+    background-color: $background;
+    letter-spacing: $spacing;
+    padding: $padding;
+    border-radius: $radius;
+    text-decoration: $decoration;
+}

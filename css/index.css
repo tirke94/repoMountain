@@ -1,0 +1,427 @@
+@font-face {
+  font-family: mojFont;
+  src: url("../../fontovi/Playball-Regular.ttf");
+}
+* {
+  margin: 0%;
+  padding: 0%;
+  box-sizing: border-box;
+}
+
+header {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  row-gap: 0;
+  -moz-column-gap: 0;
+       column-gap: 0;
+  padding: 2rem;
+}
+header div {
+  font-size: 1.3rem;
+  font-weight: 800;
+  color: black;
+  font-family: mojFont;
+  letter-spacing: 3px;
+}
+header nav {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  row-gap: 0;
+  -moz-column-gap: 1rem;
+       column-gap: 1rem;
+  flex-wrap: nowrap;
+}
+header nav a {
+  color: #000;
+  font-size: 1.3rem;
+  text-transform: uppercase;
+  text-decoration: none;
+}
+header nav :hover {
+  transform: scale(1.2);
+  color: red;
+  transition: transform 250ms;
+}
+
+.section {
+  padding: 7rem;
+  margin-bottom: 2rem;
+  width: 100%;
+  color: white;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  row-gap: 5rem;
+  -moz-column-gap: 0;
+       column-gap: 0;
+}
+.section h1 {
+  font-size: 5rem;
+}
+.section p {
+  font-size: 1.5rem;
+  width: 70%;
+}
+
+#mountain {
+  background-image: url("https://fakulteti.edukacija.rs/wp-content/uploads/2015/05/planina-sunce-890x395_c.png");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  -webkit-clip-path: polygon(100% 0, 100% 85%, 50% 100%, 0 85%, 0 0);
+          clip-path: polygon(100% 0, 100% 85%, 50% 100%, 0 85%, 0 0);
+}
+
+#hikeMore {
+  background-image: url("https://fakulteti.edukacija.rs/wp-content/uploads/2015/05/planine-dolina1-1024x668.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  -webkit-clip-path: polygon(100% 0, 100% 85%, 50% 100%, 0 85%, 0 0);
+          clip-path: polygon(100% 0, 100% 85%, 50% 100%, 0 85%, 0 0);
+}
+
+#goBig {
+  background-image: url("https://www.danas.rs/wp-content/uploads/2020/12/Planine-Foto-Zavod-za-zastitu-prirode-Srbije.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  -webkit-clip-path: polygon(100% 0, 100% 85%, 50% 100%, 0 85%, 0 0);
+          clip-path: polygon(100% 0, 100% 85%, 50% 100%, 0 85%, 0 0);
+}
+
+.section1 {
+  width: 100%;
+  height: 60vh;
+  padding-top: 3rem;
+  padding-bottom: 3rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  row-gap: 0;
+  -moz-column-gap: 2rem;
+       column-gap: 2rem;
+}
+.section1_slika {
+  width: 40%;
+  height: 100%;
+  position: relative;
+}
+.section1_slika .slika1 {
+  height: 60%;
+  width: 350px;
+  z-index: 1;
+  position: absolute;
+  top: 15%;
+  right: 5%;
+}
+.section1_slika .slika2 {
+  width: 250px;
+  z-index: 2;
+  position: absolute;
+  right: 3%;
+  bottom: 10%;
+}
+.section1_slika .slika3 {
+  height: 30%;
+  width: 250px;
+  z-index: 3;
+  position: absolute;
+  right: 40%;
+  top: 10%;
+}
+.section1_slika #naslovIznadSlika {
+  z-index: 10;
+  position: absolute;
+  top: 15%;
+  right: 20%;
+  color: black;
+  font-size: 1.5rem;
+}
+.section1_columnFlex {
+  width: 40%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  text-align: start;
+}
+.section1 h1 {
+  position: relative;
+  font-size: 3.5rem;
+  color: #ffbdc2;
+  margin: 0%;
+}
+.section1 .curvyText {
+  position: absolute;
+  font-size: 2rem;
+  color: black;
+  top: 30px;
+  left: 8rem;
+}
+.section1 p {
+  font-size: 1.3rem;
+  line-height: 1.5;
+  width: 80%;
+}
+.section1 a {
+  width: 14rem;
+  color: aliceblue;
+  background-color: #ffbdc2;
+  letter-spacing: 2px;
+  padding: 1rem 2rem;
+  border-radius: 50px;
+  text-decoration: none;
+  display: block;
+  font-size: 1.5rem;
+}
+.section1 a:hover {
+  background-color: #e3949a;
+}
+
+.kontraTekst {
+  align-items: flex-end;
+}
+
+.kontraSlika {
+  position: relative;
+}
+.kontraSlika .slika1 {
+  height: 60%;
+  width: 350px;
+  z-index: 1;
+  position: absolute;
+  left: 5%;
+  top: 15%;
+}
+.kontraSlika .slika2 {
+  height: 30%;
+  width: 250px;
+  z-index: 2;
+  position: absolute;
+  left: 45%;
+  bottom: 15%;
+}
+.kontraSlika .slika3 {
+  height: 30%;
+  width: 250px;
+  z-index: 3;
+  position: absolute;
+  left: 25%;
+  top: 5%;
+}
+.kontraSlika #naslovIznadSlika {
+  z-index: 10;
+  position: absolute;
+  top: 15%;
+  left: 27%;
+  color: yellow;
+  font-size: 1.5rem;
+}
+
+.hikingTrip {
+  width: 90%;
+  margin: auto;
+  margin-bottom: 3rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  row-gap: 2rem;
+  -moz-column-gap: 0;
+       column-gap: 0;
+}
+.hikingTrip h1 {
+  position: relative;
+  margin: 0%;
+  font-size: 5rem;
+  color: #ffbdc2;
+}
+.hikingTrip h1 .curvyText {
+  position: absolute;
+  top: 2rem;
+  left: 20%;
+  font-size: 3rem;
+  color: black;
+}
+.hikingTrip p {
+  width: 60%;
+  font-size: 1.3rem;
+  letter-spacing: 1px;
+  line-height: 1.5;
+}
+.hikingTrip a {
+  width: 14rem;
+  color: aliceblue;
+  background-color: #ffbdc2;
+  letter-spacing: 2px;
+  padding: 1rem 2rem;
+  border-radius: 50px;
+  text-decoration: none;
+  display: block;
+  font-size: 1.5rem;
+}
+.hikingTrip a:hover {
+  background-color: #e3949a;
+}
+
+.sectionTravel {
+  width: 70%;
+  margin: auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  row-gap: 0;
+  -moz-column-gap: 2rem;
+       column-gap: 2rem;
+}
+.sectionTravel .travel {
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  row-gap: 2rem;
+  -moz-column-gap: 0;
+       column-gap: 0;
+}
+.sectionTravel .travel .icons {
+  width: 5rem;
+}
+.sectionTravel .travel h3 {
+  font-size: 1.5rem;
+  color: #ffbdc2;
+}
+.sectionTravel .travel p {
+  font-size: 1.3rem;
+}
+.sectionTravel .travel a {
+  width: 14rem;
+  color: aliceblue;
+  background-color: #ffbdc2;
+  letter-spacing: 2px;
+  padding: 1rem 2rem;
+  border-radius: 50px;
+  text-decoration: none;
+  font-size: 1.5rem;
+}
+.sectionTravel .travel a :hover {
+  color: #e3949a;
+  transform: scale(1.5);
+  transition: all 250ms ease-in-out;
+}
+
+#smallGroup {
+  position: relative;
+  width: 90%;
+  margin: auto;
+  margin-bottom: 4rem;
+  text-align: center;
+  font-size: 5rem;
+  color: #ffbdc2;
+}
+#smallGroup .curvyText {
+  position: absolute;
+  top: 3rem;
+  left: 40%;
+  color: black;
+  font-size: 3rem;
+}
+
+.flexRow {
+  width: 90%;
+  text-align: center;
+  margin: auto;
+  padding: 2rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  row-gap: 0;
+  -moz-column-gap: 2rem;
+       column-gap: 2rem;
+}
+.flexRow .columnFlex {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  row-gap: 2rem;
+  -moz-column-gap: 0;
+       column-gap: 0;
+}
+.flexRow .columnFlex h1 {
+  font-size: 2rem;
+  font-weight: 800;
+  color: black;
+}
+.flexRow .columnFlex p {
+  font-size: 1.3rem;
+  letter-spacing: 1.2;
+  line-height: 1.5;
+}
+
+footer {
+  background-color: #ac6dd1;
+  -webkit-clip-path: polygon(50% 20%, 100% 0, 100% 100%, 0 100%, 0 0);
+          clip-path: polygon(50% 20%, 100% 0, 100% 100%, 0 100%, 0 0);
+  padding-top: 7rem;
+}
+footer .footerRow {
+  width: 80%;
+  margin: auto;
+  padding: 2rem 0;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  row-gap: 0;
+  -moz-column-gap: 0;
+       column-gap: 0;
+  border-bottom: 2px solid white;
+}
+footer .footerRow .img {
+  height: 30px;
+}
+footer .footerRow #social {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  row-gap: 0;
+  -moz-column-gap: 1rem;
+       column-gap: 1rem;
+}
+footer .footerRow nav {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  row-gap: 0;
+  -moz-column-gap: 1rem;
+       column-gap: 1rem;
+}
+footer .footerRow nav a {
+  color: #fff;
+  font-size: 1.3rem;
+  text-transform: uppercase;
+  text-decoration: none;
+}
+footer .footerRow nav :hover {
+  transform: scale(1.2);
+  color: red;
+  transition: transform 250ms;
+}
+footer p {
+  margin: auto;
+  text-align: center;
+  padding: 2rem 0;
+  color: white;
+  font-size: 1.3rem;
+}
+
+#last {
+  padding: 3rem 0;
+  text-align: center;
+  background-color: black;
+  color: white;
+}/*# sourceMappingURL=index.css.map */

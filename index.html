@@ -6,12 +6,12 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Mountain Adventure Website Design Live Demo</title>
-    <link rel="stylesheet" href="mountain.css">
+    <link rel="stylesheet" href="css/index.css">
 </head>
 
 <body>
     <header>
-        <div id="logoLeftSide">
+        <div>
             Active Tours
         </div>
         <nav>
@@ -35,11 +35,18 @@
         </section>
 
         <section class="section1">
-            <div class="slika">
-                <img src="https://www.kucastil.rs/uploads/ck_editor/images/clanci/KU%C4%86A/Moderna%20porodi%C4%8Dna%20ku%C4%87a%20koja%20maksimalno%20koristi%20prostor%20DETALJAN%20PLAN/Moderna%20ku%C4%87a%20s%20potkrovljem%20DETALJAN%20PLAN%20(10).jpg"
+            <div class="section1_slika">
+                <img class="slika1"
+                    src="https://www.kucastil.rs/uploads/ck_editor/images/clanci/KU%C4%86A/Moderna%20porodi%C4%8Dna%20ku%C4%87a%20koja%20maksimalno%20koristi%20prostor%20DETALJAN%20PLAN/Moderna%20ku%C4%87a%20s%20potkrovljem%20DETALJAN%20PLAN%20(10).jpg"
                     alt="landscape" width="300px">
+                <img class="slika2"
+                    src="https://img.freepik.com/free-vector/nature-scene-with-river-hills-forest-mountain-landscape-flat-cartoon-style-illustration_1150-37326.jpg?w=2000"
+                    alt="priroda" width="300px">
+                <img class="slika3"
+                    src="https://img.freepik.com/premium-vector/autumn-mountains-landscape-with-tree-silhouettes-river-sunset_148087-293.jpg?w=2000"
+                    alt="zalazak sunca" width="300px">
             </div>
-            <div class="columnFlex">
+            <div class="section1_columnFlex">
                 <h1>
                     MOUNTAINS <br> <span class="curvyText">are the beginning</span>
                 </h1>
@@ -54,7 +61,7 @@
             </div>
         </section>
 
-        <article class="columnFlex">
+        <article class="hikingTrip">
             <h1>
                 HIKING TRIP <br> <span class="curvyText">How to Train</span>
             </h1>
@@ -79,9 +86,9 @@
         </section>
 
         <section class="sectionTravel">
-            <div class="columnFlex">
+            <div class="travel">
                 <img src="https://previews.123rf.com/images/alekseyvanin/alekseyvanin1707/alekseyvanin170700372/82347691-reisen-sie-wohnmobilanh%C3%A4nger-in-der-waldlinie-ikone-entwurfsvektorzeichen-lineares-artpiktogramm-lok.jpg"
-                    alt="travel" class="icons">
+                    alt="travel" class="icons" width="30px">
                 <h3>TRAVEL STYLES</h3>
                 <p>
                     Travel Styles collect tours based around common themes together. No matter what kind of traveller
@@ -89,9 +96,9 @@
                 </p>
                 <a href="#">read more</a>
             </div>
-            <div class="columnFlex">
+            <div class="travel">
                 <img src="https://previews.123rf.com/images/alekseyvanin/alekseyvanin1712/alekseyvanin171200123/90967150-flugzeuglinie-ikone-entwurfsvektorzeichen-lineares-artpiktogramm-lokalisiert-auf-wei%C3%9F-flaches-symbol.jpg"
-                    alt="destination" class="icons">
+                    alt="destination" class="icons" width="30px">
                 <h3>DESTINATIONS</h3>
                 <p>
                     Vast, wide, bottomless, and limitless: Welcome to Earth, the universe’s #1 travel destination.
@@ -99,8 +106,9 @@
                 </p>
                 <a href="#">read more</a>
             </div>
-            <div class="columnFlex">
-                <img src="https://gema-bicikli.hr/images/uploads/gema-bike-fitting.png" alt="deals" class="icons">
+            <div class="travel">
+                <img src="https://gema-bicikli.hr/images/uploads/gema-bike-fitting.png" alt="deals" class="icons"
+                    width="30px">
                 <h3>TRAVEL DEALS</h3>
                 <p>
                     Travel Styles collect tours based around common themes together. No matter what kind of traveller
@@ -111,9 +119,9 @@
         </section>
 
         <section class="section1">
-            <div class="columnFlex">
+            <div class="section1_columnFlex kontraTekst">
                 <h1>
-                    TRAVELING <br> <span>planing a trip</span>
+                    TRAVELING <br> <span class="curvyText">planing a trip</span>
                 </h1>
                 <p>
                     Travel Styles collect tours based around common themes together. No matter what kind of
@@ -122,9 +130,17 @@
                 </p>
                 <a href="#">READ MORE</a>
             </div>
-            <div class="slika">
-                <img src="https://i2.wp.com/bugaga.ru/uploads/posts/2009-06/thumbs/1246287798_sahara_desert.jpg"
+            <div class="section1_slika kontraSlika">
+                <h1 id="naslovIznadSlika">Hiking Vacation</h1>
+                <img class="slika1"
+                    src="https://i2.wp.com/bugaga.ru/uploads/posts/2009-06/thumbs/1246287798_sahara_desert.jpg"
                     alt="landscape" width="200px">
+                <img class="slika2"
+                    src="https://i0.wp.com/digital-photography-school.com/wp-content/uploads/2021/03/landscape-photography-tips-9.jpg?resize=1500%2C994&ssl=1"
+                    alt="livada sa cvecem" width="300px">
+                <img class="slika3" id="slika3"
+                    src="https://cdn.dribbble.com/users/3320958/screenshots/15212021/media/b273f408f8c1ad3d535fc34166256b18.png?compress=1&resize=400x300&vertical=top"
+                    alt="kucica u prirodi" width="300px">
             </div>
         </section>
 
@@ -140,10 +156,10 @@
             </p>
         </section>
 
-        <section class="columnFlex lastFlex">
-            <h1>
-                SMALL-GROUP TRAVEL <br> <span class="curvyText">Put more into it.</span>
-            </h1>
+        <h1 id="smallGroup">
+            SMALL-GROUP TRAVEL <br> <span class="curvyText">Put more into it.</span>
+        </h1>
+        <section class="flexRow">
             <div class="sectionTravel">
                 <article class="columnFlex">
                     <h1>
@@ -179,15 +195,15 @@
     </main>
 
     <footer>
-        <div class="rowFlex">
+        <div class="footerRow">
             <div id="social">
-                <img class="img" src="https://www.androidauthority.com/wp-content/uploads/2021/12/Facebook-Lite.jpg"
-                    alt="facebookLogo" width="30px">
-                <img src="https://help.twitter.com/content/dam/help-twitter/brand/logo.png" alt="twitterLogo"
-                    width="30px">
-                <img src="https://pbs.twimg.com/profile_images/1306051401236099072/nuSA8oqW_400x400.jpg"
-                    alt="instagramLogo" width="30px">
-                <img class="img" src="https://www.morinaga.co.jp/in/assets/img/in_og.jpg" alt="inLogo" width="30px">
+                <a href="https://www.google.com/search?gs_ssp=eJzj4tLP1TfIyK1MKy5TYDRgdGDw4khLTE5Nys_PBgBmYAfL&q=facebook&oq=fa&aqs=chrome.1.69i60j46i39i199i465j69i57j0i67l3j69i60j69i61.1278j0j7&sourceid=chrome&ie=UTF-8" target="_blank"><img class="img" src="fb-logo-png-transparent-background-logo-twitter-png.png"
+                    alt="facebookLogo" width="30px"></a>
+                <a href="www.twiter.com" target="_blank"><img class="img" src="2-27646_twitter-logo-png-transparent-background-logo-twitter-png.png" alt="twitterLogo"
+                    width="30px"></a>
+                <a href="https://www.google.com/search?q=instagram&oq=in&aqs=chrome.1.69i59j35i39j69i57j0i67j46i67j0i67j69i60l2.1631j0j7&sourceid=chrome&ie=UTF-8" target="_blank"><img class="img" src="Download-free-Instagram-Logo-PNG.png"
+                    alt="instagramLogo" width="30px"></a>
+                <a href="#"><img class="img" src="linkedin-black-icon-logo-ECC426C572-seeklogo.com.png" alt="inLogo" width="30px"></a>
             </div>
             <nav>
                 <a href="#">Page 1</a>
@@ -203,7 +219,7 @@
         </p>
     </footer>
     <div id="last">
-            Template created with Nicepage
+        Template created with Nicepage
     </div>
 </body>
 
